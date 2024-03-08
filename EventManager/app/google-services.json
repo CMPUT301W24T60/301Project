@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799317301655",
+    "project_id": "cmput301proj",
+    "storage_bucket": "cmput301proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799317301655:android:ebf96676a2f43e4e3d8cd2",
+        "android_client_info": {
+          "package_name": "com.example.eventmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjgPBdOjKxh9nFV169sxk0NRwtObJmosk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

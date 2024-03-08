@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EventManager</string>
+    <string name="select_your_user_type">Select your user type:</string>
+    <string-array name="user_types">
+        <item>Attendee</item>
+        <item>Organizer</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
