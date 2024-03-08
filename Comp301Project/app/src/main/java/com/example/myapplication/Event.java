@@ -1,5 +1,7 @@
 package com.example.myapplication;
 
+import android.location.Location;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -61,7 +63,7 @@ public class Event {
 
     private QRCode Event_QRCode;
 
-    public ArrayList<Users> getAttendees() {
+    public ArrayList<User> getAttendees() {
         return Attendees;
     }
 
@@ -95,4 +97,5 @@ public class Event {
         Unique_QRcode=Event_QRCode;
         return Unique_QRcode;
     }
+
 }
