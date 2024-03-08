@@ -1,4 +1,4 @@
-package com.example.listycity5;
+package com.example.myapplication;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -30,7 +30,7 @@ public class EventArrayAdapter extends ArrayAdapter{
         View view = convertView;
 
         if(view == null){
-            view = LayoutInflater.from(context).inflate(R.layout.content, parent,false);
+            view = LayoutInflater.from(context).inflate(R.layout.fragment_event_page_list, parent,false);
         }
 
         Event event = Event.get(position);
