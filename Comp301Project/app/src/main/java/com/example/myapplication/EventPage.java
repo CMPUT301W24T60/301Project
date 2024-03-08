@@ -58,15 +58,13 @@ public class EventPage extends Fragment {
         if (getArguments() != null) {
             mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
         }
-        setContentView(R.layout.);
+        setContentView(R.layout.fragment_event_page);
 
-        cityList = findViewById(R.id.city_list);
-        cityDataList = new ArrayList<>();
+        EventList = findViewById(R.id.EventList);
+        EventDataList = new ArrayList<>();
 
-        addCitiesInit();
-
-        cityArrayAdapter = new CityArrayAdapter(this, cityDataList);
-        cityList.setAdapter(cityArrayAdapter);
+        EventArrayAdapter = new EventArrayAdapter(this, EventDataList);
+        EventList.setAdapter(EventArrayAdapter);
     }
     }
 
