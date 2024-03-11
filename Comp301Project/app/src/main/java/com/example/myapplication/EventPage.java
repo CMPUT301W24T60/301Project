@@ -18,7 +18,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.myapplication.placeholder.PlaceholderContent;
+import com.example.myapplication.PlaceholderContent;
 
 /**
  * A fragment representing a list of Items.
@@ -66,7 +66,7 @@ public class EventPage extends Fragment {
         EventArrayAdapter = new EventArrayAdapter(this, EventDataList);
         EventList.setAdapter(EventArrayAdapter);
     }
-    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

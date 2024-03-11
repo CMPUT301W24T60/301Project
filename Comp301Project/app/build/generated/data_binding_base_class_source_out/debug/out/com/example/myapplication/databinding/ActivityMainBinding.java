@@ -4,43 +4,45 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplication.R;
-import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final FloatingActionButton fab;
+  public final Button button4;
 
   @NonNull
-  public final MaterialToolbar toolbar;
+  public final Button button5;
 
   @NonNull
-  public final FloatingActionButton userProfile;
+  public final Button button6;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fab, @NonNull MaterialToolbar toolbar,
-      @NonNull FloatingActionButton userProfile) {
+  @NonNull
+  public final Button button7;
+
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button button4,
+      @NonNull Button button5, @NonNull Button button6, @NonNull Button button7) {
     this.rootView = rootView;
-    this.fab = fab;
-    this.toolbar = toolbar;
-    this.userProfile = userProfile;
+    this.button4 = button4;
+    this.button5 = button5;
+    this.button6 = button6;
+    this.button7 = button7;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -65,25 +67,31 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fab;
-      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
-      if (fab == null) {
+      id = R.id.button4;
+      Button button4 = ViewBindings.findChildViewById(rootView, id);
+      if (button4 == null) {
         break missingId;
       }
 
-      id = R.id.toolbar;
-      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
-      if (toolbar == null) {
+      id = R.id.button5;
+      Button button5 = ViewBindings.findChildViewById(rootView, id);
+      if (button5 == null) {
         break missingId;
       }
 
-      id = R.id.userProfile;
-      FloatingActionButton userProfile = ViewBindings.findChildViewById(rootView, id);
-      if (userProfile == null) {
+      id = R.id.button6;
+      Button button6 = ViewBindings.findChildViewById(rootView, id);
+      if (button6 == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, fab, toolbar, userProfile);
+      id = R.id.button7;
+      Button button7 = ViewBindings.findChildViewById(rootView, id);
+      if (button7 == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, button4, button5, button6, button7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,13 +1,19 @@
-#Tue Mar 05 18:05:42 MST 2024
+#Mon Mar 11 10:54:37 MDT 2024
 base.0=/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
 base.3=/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.4=/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.5=/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex
 path.3=5/classes.dex
+path.4=classes2.dex
+path.5=classes3.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
+renamed.4=classes5.dex
+renamed.5=classes6.dex

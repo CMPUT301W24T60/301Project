@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-41:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-47:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/zongzehe/Documents/UA/CMPUT301/project/Project301/301Project/Comp301Project/app/src/main/res/values-w1240dp/dimens.xml",
