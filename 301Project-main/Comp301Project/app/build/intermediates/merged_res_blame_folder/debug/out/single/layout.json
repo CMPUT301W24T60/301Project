@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\user_eddit.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\user_eddit.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.example.myapplication.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\content_main.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\fragment_event_page_list.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_event_page_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\fragment_event_page.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_event_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\event_list_item.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\event_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-mergeDebugResources-52:\\layout\\user_profile.xml",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\user_profile.xml"
+    }
+]
