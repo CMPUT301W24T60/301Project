@@ -50,9 +50,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity
-            android:name="com.example.myapplication.UserProfile"
-            android:exported="false" />
+        <activity android:name="com.example.myapplication.UsersProfileActivity" />
+        <activity android:name="com.example.myapplication.EventsActivity" />
+        <activity android:name="com.example.myapplication.MapActivity" />
+        <activity android:name="com.example.myapplication.ProfileEditActivity" />
+        <activity android:name="com.example.myapplication.ScanActivity" />
         <activity
             android:name="com.example.myapplication.MainActivity"
             android:exported="true"

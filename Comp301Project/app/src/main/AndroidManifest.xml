@@ -13,8 +13,15 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".UserProfile"
-            android:exported="false" />
+            android:name=".UsersProfileActivity" />
+        <activity
+            android:name=".EventsActivity" />
+        <activity
+            android:name=".MapActivity" />
+        <activity
+            android:name=".ProfileEditActivity" />
+        <activity
+            android:name=".ScanActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
