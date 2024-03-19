@@ -1,38 +1,62 @@
 [
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_event_page_list.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/fragment_event_page_list.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_map.xml",
+        "source": "com.example.myapplication.app-main-51:/layout/activity_map.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/user_profile.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/user_profile.xml"
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/user_eddit.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/user_eddit.xml"
+    },
+    {
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_first.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/user_profile.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/user_profile.xml"
+    },
+    {
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/activity_user_profile.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_second.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/content_main.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_users_profile.xml",
+        "source": "com.example.myapplication.app-main-51:/layout/activity_users_profile.xml"
     },
     {
         "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_main.xml",
         "source": "com.example.myapplication.app-main-51:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/user_eddit.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/user_eddit.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_profile_edit.xml",
+        "source": "com.example.myapplication.app-main-51:/layout/activity_profile_edit.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/content_main.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/content_main.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_scan.xml",
+        "source": "com.example.myapplication.app-main-51:/layout/activity_scan.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_event_page.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/fragment_event_page.xml"
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_event_page_list.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/fragment_event_page_list.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_user_profile.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/activity_user_profile.xml"
+        "merged": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_event_page.xml",
+        "source": "/Users/zongzehe/.gradle/daemon/8.2/com.example.myapplication.app-main-51:/layout/fragment_event_page.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_second.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/fragment_second.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/fragment_first.xml",
-        "source": "com.example.myapplication.app-main-51:/layout/fragment_first.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-48:/layout/activity_events.xml",
+        "source": "com.example.myapplication.app-main-51:/layout/activity_events.xml"
     }
 ]

@@ -4,45 +4,58 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplication.R;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button4;
+  public final AppBarLayout appbar;
 
   @NonNull
-  public final Button button5;
+  public final BottomNavigationView bottomNavigation;
 
   @NonNull
-  public final Button button6;
+  public final ImageView imageEvent;
 
   @NonNull
-  public final Button button7;
+  public final ImageView imageMap;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button button4,
-      @NonNull Button button5, @NonNull Button button6, @NonNull Button button7) {
+  @NonNull
+  public final SearchView searchView;
+
+  @NonNull
+  public final Toolbar toolbar;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull AppBarLayout appbar,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ImageView imageEvent,
+      @NonNull ImageView imageMap, @NonNull SearchView searchView, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.button4 = button4;
-    this.button5 = button5;
-    this.button6 = button6;
-    this.button7 = button7;
+    this.appbar = appbar;
+    this.bottomNavigation = bottomNavigation;
+    this.imageEvent = imageEvent;
+    this.imageMap = imageMap;
+    this.searchView = searchView;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -67,31 +80,44 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.appbar;
+      AppBarLayout appbar = ViewBindings.findChildViewById(rootView, id);
+      if (appbar == null) {
         break missingId;
       }
 
-      id = R.id.button5;
-      Button button5 = ViewBindings.findChildViewById(rootView, id);
-      if (button5 == null) {
+      id = R.id.bottom_navigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
         break missingId;
       }
 
-      id = R.id.button6;
-      Button button6 = ViewBindings.findChildViewById(rootView, id);
-      if (button6 == null) {
+      id = R.id.image_event;
+      ImageView imageEvent = ViewBindings.findChildViewById(rootView, id);
+      if (imageEvent == null) {
         break missingId;
       }
 
-      id = R.id.button7;
-      Button button7 = ViewBindings.findChildViewById(rootView, id);
-      if (button7 == null) {
+      id = R.id.image_map;
+      ImageView imageMap = ViewBindings.findChildViewById(rootView, id);
+      if (imageMap == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, button4, button5, button6, button7);
+      id = R.id.search_view;
+      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
+      if (searchView == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, appbar, bottomNavigation,
+          imageEvent, imageMap, searchView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
