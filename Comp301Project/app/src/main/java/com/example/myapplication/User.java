@@ -1,50 +1,49 @@
 package com.example.myapplication;
 
-import android.location.Location;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
 public class User {
+    private String name;
+    private String account;
+    private String password;
 
-    private ArrayList <String> Notifications;
-    /*create notifications class that has a time added
-    so the notifications can be sorted by time and by who sent them
-     */
-    private Profile UserProfile;
-    private ArrayList<Event> UserEvent;
+    private String tickle;
 
-    public User(ArrayList<String> notifications) {
-        UserProfile=new Profile();
+    public User(){};
 
-    }
-    // might have to overide this as well to form a system
-
-    public void newNotification(String Notify){
-        Notifications.add(Notify);
-    }
-   public void sortNotifications(){
-        // add in functionalllity later
-   }
-   public void addEvent(Event NewEvent){
-        UserEvent.add(NewEvent);
-   }
-   public void deleteEvent(Event deleteEvent) throws Exception{
-
-        if (UserEvent.contains(deleteEvent)){
-            UserEvent.remove(deleteEvent);
-        }
-        else{
-            throw new Exception("no event by this title");
-
-
-        }
-   }
-
-   public Profile getUserProfile(){
-        return UserProfile;
+    public User(String name, String account, String password,String tickle) {
+        this.name = name;
+        this.account = account;
+        this.password = password;
+        this.tickle = tickle;
     }
 
+    public String getName() {
+        return name;
+    }
+    public String getAccount() {
+        return account;
+    }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public String getTickle() {
+        return tickle;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setTickle(String tickle) {
+        this.tickle = tickle;
+    }
 }

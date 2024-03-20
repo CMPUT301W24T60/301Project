@@ -1,6 +1,12 @@
 package com.example.myapplication;
 
+<<<<<<< Updated upstream
 import android.location.Location;
+=======
+import android.graphics.Bitmap;
+
+import com.google.zxing.qrcode.encoder.QRCode;
+>>>>>>> Stashed changes
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -75,11 +81,28 @@ public class Event {
 
     }
 
-    public QRCode GenQRcode(){
-        //call QR code Generator
-        QRCode Unique_QRcode;
-        Unique_QRcode=Event_QRCode;
-        return Unique_QRcode;
+    //  call QR_code_generator to generate QR code based on provided event details and return to event for
+    // storage as bitmap
+    public Bitmap GenQRcode() {
+        QRCodeGenerator qrGenerator = new QRCodeGenerator();
+        // Concatenate event details into a single string
+        // Example: "Event Title: Example Event; Event Location;Date: 2024-03-06; Description: Example Description"
+        String eventDetails = "Event Title: " + this.Event_Title + "; "Event Location:" + this.Event_Location +"; Date: " + this.Event_Date.toString() + "; Description: " + this.Event_Description;
+        // Assuming default dimensions for the QR code
+        int width = 500;
+        int height = 500;
+
+        // Generate the QR code with the event details
+        Bitmap qrCodeBitmap = qrGenerator.generateQRCode(eventDetails, width, height);
+
+        // store QR code within event class?
+        // For demonstration, assuming there's a way to store or handle the Bitmap object:
+        this.Event_QRCode = qrCodeBitmap; // Make sure the Event_QRCode property is of a type that can store a Bitmap
+
+        return qrCodeBitmap;
     }
 
+<<<<<<< Updated upstream
 }
+=======
+>>>>>>> Stashed changes

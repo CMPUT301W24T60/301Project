@@ -4,43 +4,58 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplication.R;
-import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FloatingActionButton fab;
+  public final AppBarLayout appbar;
 
   @NonNull
-  public final MaterialToolbar toolbar;
+  public final BottomNavigationView bottomNavigation;
 
   @NonNull
-  public final FloatingActionButton userProfile;
+  public final ImageView imageEvent;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fab, @NonNull MaterialToolbar toolbar,
-      @NonNull FloatingActionButton userProfile) {
+  @NonNull
+  public final ImageView imageMap;
+
+  @NonNull
+  public final SearchView searchView;
+
+  @NonNull
+  public final Toolbar toolbar;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull AppBarLayout appbar,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ImageView imageEvent,
+      @NonNull ImageView imageMap, @NonNull SearchView searchView, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.fab = fab;
+    this.appbar = appbar;
+    this.bottomNavigation = bottomNavigation;
+    this.imageEvent = imageEvent;
+    this.imageMap = imageMap;
+    this.searchView = searchView;
     this.toolbar = toolbar;
-    this.userProfile = userProfile;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -65,25 +80,44 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fab;
-      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
-      if (fab == null) {
+      id = R.id.appbar;
+      AppBarLayout appbar = ViewBindings.findChildViewById(rootView, id);
+      if (appbar == null) {
+        break missingId;
+      }
+
+      id = R.id.bottom_navigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
+        break missingId;
+      }
+
+      id = R.id.image_event;
+      ImageView imageEvent = ViewBindings.findChildViewById(rootView, id);
+      if (imageEvent == null) {
+        break missingId;
+      }
+
+      id = R.id.image_map;
+      ImageView imageMap = ViewBindings.findChildViewById(rootView, id);
+      if (imageMap == null) {
+        break missingId;
+      }
+
+      id = R.id.search_view;
+      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
+      if (searchView == null) {
         break missingId;
       }
 
       id = R.id.toolbar;
-      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
         break missingId;
       }
 
-      id = R.id.userProfile;
-      FloatingActionButton userProfile = ViewBindings.findChildViewById(rootView, id);
-      if (userProfile == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((CoordinatorLayout) rootView, fab, toolbar, userProfile);
+      return new ActivityMainBinding((ConstraintLayout) rootView, appbar, bottomNavigation,
+          imageEvent, imageMap, searchView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
