@@ -1,0 +1,10 @@
+#Thu Mar 21 04:01:36 MDT 2024
+base.0=C\:\\Users\\bashir\\Desktop\\COMPSCI\\301Project\\301Project-main\\301Project-main\\Comp301Project\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\bashir\\Desktop\\COMPSCI\\301Project\\301Project-main\\301Project-main\\Comp301Project\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\bashir\\Desktop\\COMPSCI\\301Project\\301Project-main\\301Project-main\\Comp301Project\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\5\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=5/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

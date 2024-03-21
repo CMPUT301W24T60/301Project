@@ -1,4 +1,4 @@
-/**
+package com.example.myapplication; /**
  * LocationTracker
  * <p>
  * Author: Vasu Aggarwal

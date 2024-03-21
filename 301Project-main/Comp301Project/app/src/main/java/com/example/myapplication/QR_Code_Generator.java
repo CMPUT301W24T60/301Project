@@ -1,7 +1,15 @@
 /* QRCodeGenerator
- * 
- * Author: Bashir Bello
-*/
+ * Generates a Bitmap of a QR code from a given string.
+ *
+ * Usage:
+ * Bitmap qrCodeBitmap = new QR_Code_Generator().generateQRCode(content, width, height);
+ * imageView.setImageBitmap(qrCodeBitmap);
+ *
+ * Parameters:
+ * content - The string to encode in the QR code.
+ * width - The desired width of the QR code image.
+ * height - The desired height of the QR code image.
+ */
 
 package com.example.myapplication;
 
@@ -14,7 +22,6 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
 import java.util.Hashtable;
-
 public class QR_Code_Generator {
     private static final int WHITE = 0xFFFFFFFF;
     private static final int BLACK = 0xFF000000;
