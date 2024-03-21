@@ -4,56 +4,80 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplication.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final CoordinatorLayout rootView;
 
   @NonNull
-  public final Button button4;
+  public final FrameLayout calendarContainer;
 
   @NonNull
-  public final Button button5;
+  public final FrameLayout eventsContainer;
 
   @NonNull
-  public final Button button6;
+  public final FrameLayout fragmentContainer;
 
   @NonNull
-  public final Button button7;
+  public final ImageView imageCalendar;
 
   @NonNull
-  public final FloatingActionButton fab;
+  public final ImageView imageEvents;
+
+  @NonNull
+  public final ImageView imageMap;
+
+  @NonNull
+  public final ImageView imageProfile;
+
+  @NonNull
+  public final FrameLayout mapContainer;
+
+  @NonNull
+  public final BottomNavigationView navView;
+
+  @NonNull
+  public final FrameLayout profileContainer;
 
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button button4,
-      @NonNull Button button5, @NonNull Button button6, @NonNull Button button7,
-      @NonNull FloatingActionButton fab, @NonNull Toolbar toolbar) {
+  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull FrameLayout calendarContainer, @NonNull FrameLayout eventsContainer,
+      @NonNull FrameLayout fragmentContainer, @NonNull ImageView imageCalendar,
+      @NonNull ImageView imageEvents, @NonNull ImageView imageMap, @NonNull ImageView imageProfile,
+      @NonNull FrameLayout mapContainer, @NonNull BottomNavigationView navView,
+      @NonNull FrameLayout profileContainer, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.button4 = button4;
-    this.button5 = button5;
-    this.button6 = button6;
-    this.button7 = button7;
-    this.fab = fab;
+    this.calendarContainer = calendarContainer;
+    this.eventsContainer = eventsContainer;
+    this.fragmentContainer = fragmentContainer;
+    this.imageCalendar = imageCalendar;
+    this.imageEvents = imageEvents;
+    this.imageMap = imageMap;
+    this.imageProfile = imageProfile;
+    this.mapContainer = mapContainer;
+    this.navView = navView;
+    this.profileContainer = profileContainer;
     this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -78,33 +102,63 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.calendar_container;
+      FrameLayout calendarContainer = ViewBindings.findChildViewById(rootView, id);
+      if (calendarContainer == null) {
         break missingId;
       }
 
-      id = R.id.button5;
-      Button button5 = ViewBindings.findChildViewById(rootView, id);
-      if (button5 == null) {
+      id = R.id.events_container;
+      FrameLayout eventsContainer = ViewBindings.findChildViewById(rootView, id);
+      if (eventsContainer == null) {
         break missingId;
       }
 
-      id = R.id.button6;
-      Button button6 = ViewBindings.findChildViewById(rootView, id);
-      if (button6 == null) {
+      id = R.id.fragment_container;
+      FrameLayout fragmentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainer == null) {
         break missingId;
       }
 
-      id = R.id.button7;
-      Button button7 = ViewBindings.findChildViewById(rootView, id);
-      if (button7 == null) {
+      id = R.id.image_calendar;
+      ImageView imageCalendar = ViewBindings.findChildViewById(rootView, id);
+      if (imageCalendar == null) {
         break missingId;
       }
 
-      id = R.id.fab;
-      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
-      if (fab == null) {
+      id = R.id.image_events;
+      ImageView imageEvents = ViewBindings.findChildViewById(rootView, id);
+      if (imageEvents == null) {
+        break missingId;
+      }
+
+      id = R.id.image_map;
+      ImageView imageMap = ViewBindings.findChildViewById(rootView, id);
+      if (imageMap == null) {
+        break missingId;
+      }
+
+      id = R.id.image_profile;
+      ImageView imageProfile = ViewBindings.findChildViewById(rootView, id);
+      if (imageProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.map_container;
+      FrameLayout mapContainer = ViewBindings.findChildViewById(rootView, id);
+      if (mapContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.nav_view;
+      BottomNavigationView navView = ViewBindings.findChildViewById(rootView, id);
+      if (navView == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_container;
+      FrameLayout profileContainer = ViewBindings.findChildViewById(rootView, id);
+      if (profileContainer == null) {
         break missingId;
       }
 
@@ -114,8 +168,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, button4, button5, button6, button7,
-          fab, toolbar);
+      return new ActivityMainBinding((CoordinatorLayout) rootView, calendarContainer,
+          eventsContainer, fragmentContainer, imageCalendar, imageEvents, imageMap, imageProfile,
+          mapContainer, navView, profileContainer, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

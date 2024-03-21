@@ -1,122 +1,150 @@
 [
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\xml\\backup_rules.xml"
+        "merged": "com.example.myapplication.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.example.myapplication.app-main-56:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\content_main.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_event_list_item.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\event_list_item.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_baseline_qr_code_scanner_24.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\baseline_qr_code_scanner_24.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_user_profile.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\user_profile.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_first.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_photowall_default.jpg.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\photowall_default.jpg"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\menu\\menu_main.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\drawable_photowall_default.jpg.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\drawable\\photowall_default.jpg"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_event_list_item.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\event_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_baseline_map_24.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\baseline_map_24.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_fragment_event_page.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_event_page.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_user_profile.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\user_profile.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_fragment_event_page.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\fragment_event_page.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_second.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.myapplication.app-merged_res-53:/layout_activity_main.xml.flat",
-        "source": "com.example.myapplication.app-main-55:/layout/activity_main.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_user_eddit.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\user_eddit.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_baseline_list_24.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\baseline_list_24.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\drawable_head_portrait_holder.png.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\drawable\\head_portrait_holder.png"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_user_eddit.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\user_eddit.xml"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\layout_fragment_event_page_list.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\layout\\fragment_event_page_list.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_head_portrait_holder.png.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\head_portrait_holder.png"
     },
     {
-        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-53:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-55:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_fragment_calendar.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_fragment_map_view.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\fragment_map_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_fragment_qr_code_scanner.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\fragment_qr_code_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\drawable_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\drawable\\baseline_calendar_month_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-merged_res-54:\\layout_fragment_event_page_list.xml.flat",
+        "source": "C:\\Users\\bashir\\.gradle\\daemon\\8.2\\com.example.myapplication.app-main-56:\\layout\\fragment_event_page_list.xml"
     }
 ]

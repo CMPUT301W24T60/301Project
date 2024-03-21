@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:databinding-adapters:8.2.2] C:\Users\bashir\.gradle\caches\transforms-3\4882bf032ad8063a526d50ef0840b5fd\transformed\databinding-adapters-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.2.2] C:\Users\bashir\.gradle\caches\transforms-3\392c7fdab54f9b9449623a300c7a2139\transformed\databinding-runtime-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\bashir\.gradle\caches\transforms-3\ce6bd7fe6d879218ec03af7797a8539b\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
@@ -18,6 +18,7 @@ MERGED from [com.google.android.material:material:1.11.0] C:\Users\bashir\.gradl
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bashir\.gradle\caches\transforms-3\3c6b14974eada3b737e4646addd01d24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\bashir\.gradle\caches\transforms-3\8c60153bca6de4306b04ab8bc2348ea8\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\bashir\.gradle\caches\transforms-3\b1741c2033ae6eec819ff5ea06ca1704\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:2:1-29:12
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:17:1-56:12
 MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:2:1-23:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\bashir\.gradle\caches\transforms-3\d391d64cdc2c913908362b3c3603048e\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
@@ -97,9 +98,57 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\bas
 		INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:5:5-7:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:7:9-33
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:6:9-47
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\27f5ff4ba6c3df03ad8ef43f2a6c3cdf\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\27f5ff4ba6c3df03ad8ef43f2a6c3cdf\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:14:5-64
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:14:22-62
 application
-ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:17:5-37:19
+INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:17:5-37:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\bashir\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\bashir\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bashir\.gradle\caches\transforms-3\3c6b14974eada3b737e4646addd01d24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -149,43 +198,41 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bashir\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\bashir\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:22:9-37
 	android:fullBackupContent
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:20:9-54
 	android:roundIcon
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:23:9-65
 	tools:targetApi
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:26:9-29
 	android:icon
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:21:9-60
 	android:allowBackup
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:13:9-51
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:25:9-51
 	android:dataExtractionRules
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:19:9-65
 activity#com.example.myapplication.MainActivity
-ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:15:9-25:20
-	android:label
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:18:13-45
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:exported
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:29:13-36
 	android:theme
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:19:13-55
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:30:13-55
 	android:name
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml
@@ -218,6 +265,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\bashir\.grad
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\bashir\.gradle\caches\transforms-3\8c60153bca6de4306b04ab8bc2348ea8\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\bashir\.gradle\caches\transforms-3\b1741c2033ae6eec819ff5ea06ca1704\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\bashir\.gradle\caches\transforms-3\b1741c2033ae6eec819ff5ea06ca1704\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:7:5-9:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:7:5-9:41
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:5:5-44
@@ -360,16 +409,40 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\bas
 		INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\bashir\Desktop\COMPSCI\301Project\301Project-main\301Project-main\Comp301Project\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.CAMERA
-ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
-	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:22:22-62
-uses-feature#android.hardware.camera
-ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:11:5-14:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:12:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:16:5-18:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:27:9-33
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:18:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:26:9-47
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:17:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:20:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:23:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:25:5-27:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.10] C:\Users\bashir\.gradle\caches\transforms-3\7838d557d2441db31ef045e5574663be\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:26:9-45
 uses-feature#android.hardware.camera.front
 ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
 	android:required
@@ -394,12 +467,6 @@ ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradl
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
 	android:name
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
-uses-feature#android.hardware.wifi
-ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
-	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
-	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
 activity#com.journeyapps.barcodescanner.CaptureActivity
 ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
 	android:screenOrientation
@@ -414,24 +481,6 @@ ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradl
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
 	android:name
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\bashir\.gradle\caches\transforms-3\a60982259721268694c6a5f2a67385db\transformed\zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\27f5ff4ba6c3df03ad8ef43f2a6c3cdf\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\27f5ff4ba6c3df03ad8ef43f2a6c3cdf\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\bashir\.gradle\caches\transforms-3\406f32b8ae1b720f8933db0028fafd52\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\bashir\.gradle\caches\transforms-3\c70926db71217884419dd97e015fb82c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\bashir\.gradle\caches\transforms-3\6b57455701952f942ad197475eac699c\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:11:9-20:19
 MERGED from [com.google.firebase:firebase-abt:21.1.1] C:\Users\bashir\.gradle\caches\transforms-3\639a51accf5ae6f47b31fd808c1a56c9\transformed\firebase-abt-21.1.1\AndroidManifest.xml:11:9-15:19

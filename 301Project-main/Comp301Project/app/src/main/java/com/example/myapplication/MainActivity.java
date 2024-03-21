@@ -1,60 +1,42 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
-import com.example.myapplication.databinding.ActivityMainBinding;
-import com.google.android.material.snackbar.Snackbar;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityMainBinding binding;
+    private NavController navController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        setSupportActionBar(binding.toolbar);
-
-        // Here, we ensure that the NavController is correctly found using the View Binding
-        //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        //appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
-        binding.fab.setOnClickListener(view ->
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show()
-        );
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        // Find the NavHostFragment
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
+        // Ensure the NavHostFragment is not null
+        if (navHostFragment != null) {
+            navController = navHostFragment.getNavController();
+        } else {
+            throw new RuntimeException("NavHostFragment not found!");
         }
-        return super.onOptionsItemSelected(item);
-    }
 
-    //@Override
-    //public boolean onSupportNavigateUp() {
-        //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        //return navController.navigateUp() || super.onSupportNavigateUp();
-    }
+        BottomNavigationView navView = findViewById(R.id.nav_view);
+        NavigationUI.setupWithNavController(navView, navController);
 
+        // Set click listeners for each grid item to navigate to the corresponding Fragment
+        findViewById(R.id.events_container).setOnClickListener(view -> navController.navigate(R.id.eventPageFragment));
+        findViewById(R.id.map_container).setOnClickListener(view -> navController.navigate(R.id.mapViewFragment));
+        findViewById(R.id.calendar_container).setOnClickListener(view -> navController.navigate(R.id.calendarFragment));
+        findViewById(R.id.profile_container).setOnClickListener(view -> navController.navigate(R.id.userProfileFragment));
+    }
+}
