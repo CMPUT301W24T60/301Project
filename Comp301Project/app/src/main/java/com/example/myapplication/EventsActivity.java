@@ -8,13 +8,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class EventsActivity extends AppCompatActivity {
-
+    ListView EventList;
+    EventArrayAdapter eventListAdapter;
+    ArrayList<Event> Events=new ArrayList<Event>();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
         //code starts here
-        //this code implements the navigation function do not modify
+        //code starts here
+        EventList=findViewById(R.id.EventsList);
+        Event a= new Event("title","des");
+        Events.add(a);
+        //Events=conect to firedatabase and create list
+        eventListAdapter=new EventArrayAdapter(this,Events);
+        EventList.setAdapter(eventListAdapter);
+       //this code implements the navigation function do not modify        //this code implements the navigation function do not modify
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             Intent intent;
