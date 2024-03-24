@@ -6,8 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".EventsActivity">
     <!-- your code start here -->
-
-    <!-- the part is code and must always be at the bottom
+ <ListView
+        android:id="@+id/EventsList"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:ignore="MissingConstraints" />    <!-- the part is code and must always be at the bottom
          do not the modify
          -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
