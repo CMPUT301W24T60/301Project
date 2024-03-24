@@ -19,7 +19,10 @@ public class EventsActivity extends AppCompatActivity {
         //code starts here
         //code starts here
         EventList=findViewById(R.id.EventsList);
-        Event a= new Event("title","des");
+        Date b=new Date();
+        Location l=new Location("Los angeles");
+        ArrayList<User> c=new ArrayList<User>();
+        Event a= new Event("title","des",b,l,c);
         Events.add(a);
         //Events=conect to firedatabase and create list
         eventListAdapter=new EventArrayAdapter(this,Events);
