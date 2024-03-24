@@ -18,7 +18,18 @@ public class Event {
     private String Event_Description;
     private Date Event_Date;
     private Location Event_Location;
-    public String getEvent_Title() {
+
+     Event(String Title,String des,Date date,Location location, ArrayList<User> attendees ){
+        this.setEvent_Title(Title);
+        this.Attendees=new ArrayList<User>();
+        for(User i:attendees){
+            Attendees.add(i);
+        }
+        this.setEvent_Description(des);
+        this.Event_QRCode=this.GenQRcode();
+        this.setEvent_Date(date);
+        this.setEvent_Location(location);
+    }    public String getEvent_Title() {
         return Event_Title;
     }
 
