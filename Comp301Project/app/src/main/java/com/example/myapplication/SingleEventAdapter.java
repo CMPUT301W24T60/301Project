@@ -25,13 +25,13 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-public class SingleEventAdapter implements Adapter {
+public class SingleEventAdapter extends ArrayAdapter<Event> {
 private int Ausercode;
 private Context Context;
 private Event OneEvent;
 
 public SingleEventAdapter (Context context, Event event, int usercode){
-            super();
+            super(context, 0);
             Ausercode=usercode;
             Context=context;
             OneEvent=event;
