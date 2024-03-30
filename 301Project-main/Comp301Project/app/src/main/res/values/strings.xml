@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hi">Hi, </string>
+    <string name="nicknamePlaceholder">Nickname</string>
+    <string name="accountPlaceholder">account</string>
+    <string name="my_qrcode">My QRcode</string>
+    <string name="edit">Edit</string>
+    <string name="setting">Setting</string>
+    <string name="tickle">Tickle:</string>
+    <string name="history_event">History Event</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_profile">Profile</string>
+</resources>

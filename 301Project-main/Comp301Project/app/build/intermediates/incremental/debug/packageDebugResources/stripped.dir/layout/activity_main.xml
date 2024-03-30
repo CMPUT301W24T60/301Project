@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Home"
+            app:titleTextColor="@android:color/white"/>
+
+        <fragment
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- A GridLayout for the main dashboard -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowCount="2"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Events -->
+        <FrameLayout
+            android:id="@+id/events_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onEventsClicked">
+
+            <ImageView
+                android:id="@+id/image_events"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_list_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center"
+                android:text="Events"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </FrameLayout>
+
+        <!-- Map -->
+        <FrameLayout
+            android:id="@+id/map_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onMapClicked">
+
+            <ImageView
+                android:id="@+id/image_map"
+                android:layout_width="162dp"
+                android:layout_height="174dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_map_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center"
+                android:text="Map"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </FrameLayout>
+
+        <!-- Calendar -->
+        <FrameLayout
+            android:id="@+id/calendar_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onCalendarClicked">
+
+            <ImageView
+                android:id="@+id/image_calendar"
+                android:layout_width="186dp"
+                android:layout_height="149dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_calendar_month_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center"
+                android:text="Calendar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </FrameLayout>
+
+        <!-- Profile -->
+        <FrameLayout
+            android:id="@+id/profile_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onProfileClicked">
+
+            <ImageView
+                android:id="@+id/image_profile"
+                android:layout_width="186dp"
+                android:layout_height="168dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center"
+                android:text="Profile"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </FrameLayout>
+
+
+    </GridLayout>
+
+    <!-- navigator -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:labelVisibilityMode="unlabeled"
+        android:layout_below="@id/toolbar" />
+
+
+
+    <!-- Color selector for icons and text -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

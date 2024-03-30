@@ -1,10 +1,35 @@
 package com.example.myapplication;
 
+<<<<<<< Updated upstream
+import android.location.Location;
+=======
+import android.graphics.Bitmap;
+
+import com.google.zxing.qrcode.encoder.QRCode;
+>>>>>>> Stashed changes
+
 import java.util.ArrayList;
 import java.util.Date;
 
 public class Event {
-    public String getEvent_Title() {
+    private String Event_Title;
+    private ArrayList<User> Attendees;
+    private QRCode Event_QRCode;
+    private String Event_Description;
+    private Date Event_Date;
+    private Location Event_Location;
+
+     Event(String Title,String des,Date date,Location location, ArrayList<User> attendees ){
+        this.setEvent_Title(Title);
+        this.Attendees=new ArrayList<User>();
+        for(User i:attendees){
+            Attendees.add(i);
+        }
+        this.setEvent_Description(des);
+        this.Event_QRCode=this.GenQRcode();
+        this.setEvent_Date(date);
+        this.setEvent_Location(location);
+    }    public String getEvent_Title() {
         return Event_Title;
     }
 
@@ -12,38 +37,19 @@ public class Event {
         Event_Title = event_Title;
     }
 
-    /*Event:
-          Responsibilities:
-            Store details about an event (title, description, date, location, QR code, etc.).
-            Generate a unique QR code for check-ins.
-            Track and update attendee check-ins.
-          Collaborators:
-            QRCodeGenerator
-            DatabaseManager (Firebase)
-            EventOrganizer
-            LocationTracker
-            * */
-    private String Event_Title;
-
     public String getEvent_Description() {
         return Event_Description;
     }
-
     public void setEvent_Description(String event_Description) {
         Event_Description = event_Description;
     }
 
-    private String Event_Description;
-
     public Date getEvent_Date() {
         return Event_Date;
     }
-
     public void setEvent_Date(Date event_Date) {
         Event_Date = event_Date;
     }
-
-    private Date Event_Date;
 
     public Location getEvent_Location() {
         return Event_Location;
@@ -53,19 +59,16 @@ public class Event {
         Event_Location = event_Location;
     }
 
-    private Location Event_Location;
+
 
     public QRCode getEvent_QRCode() {
         return Event_QRCode;
     }
 
-    private QRCode Event_QRCode;
-
-    public ArrayList<Users> getAttendees() {
+    public ArrayList<User> getAttendees() {
         return Attendees;
     }
 
-    private ArrayList<User> Attendees;
     public void addAttendees(User a) {
         if (!Attendees.contains(a)) {
             Attendees.add(a);
@@ -89,10 +92,28 @@ public class Event {
 
     }
 
-    public QRCode GenQRcode(){
-        //call QR code Generator
-        QRCode Unique_QRcode;
-        Unique_QRcode=Event_QRCode;
-        return Unique_QRcode;
+    //  call QR_code_generator to generate QR code based on provided event details and return to event for
+    // storage as bitmap
+    public Bitmap GenQRcode() {
+        QRCodeGenerator qrGenerator = new QRCodeGenerator();
+        // Concatenate event details into a single string
+        // Example: "Event Title: Example Event; Event Location;Date: 2024-03-06; Description: Example Description"
+        String eventDetails = "Event Title: " + this.Event_Title + "; "Event Location:" + this.Event_Location +"; Date: " + this.Event_Date.toString() + "; Description: " + this.Event_Description;
+        // Assuming default dimensions for the QR code
+        int width = 500;
+        int height = 500;
+
+        // Generate the QR code with the event details
+        Bitmap qrCodeBitmap = qrGenerator.generateQRCode(eventDetails, width, height);
+
+        // store QR code within event class?
+        // For demonstration, assuming there's a way to store or handle the Bitmap object:
+        this.Event_QRCode = qrCodeBitmap; // Make sure the Event_QRCode property is of a type that can store a Bitmap
+
+        return qrCodeBitmap;
     }
+
+<<<<<<< Updated upstream
 }
+=======
+>>>>>>> Stashed changes
