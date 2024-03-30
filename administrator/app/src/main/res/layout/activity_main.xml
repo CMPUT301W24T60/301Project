@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        android:id="@+id/app_bar_main"
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <!-- Button to create and manage events -->
+        <Button
+            android:id="@+id/btn_create_manage_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_and_manage_events" />
+
+        <!-- Button to send notifications to attendees -->
+        <Button
+            android:id="@+id/btn_send_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/send_notifications_to_attendees" />
+
+        <!-- Button to view real-time attendance and check-in data -->
+        <Button
+            android:id="@+id/btn_view_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/view_attendance_and_check_in_data" />
+
+        <!-- Button to view and manage QR Codes -->
+        <Button
+            android:id="@+id/btn_manage_qr_codes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/manage_qr_codes" />
+
+        <!-- Button to upload event poster -->
+        <Button
+            android:id="@+id/btn_upload_event_poster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/upload_event_poster" />
+
+        <!-- Button to copy and paste QR code -->
+        <Button
+            android:id="@+id/btn_copy_paste_qr_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/copy_and_paste_qr_code" />
+
+        <!-- Button to limit number of attendees -->
+        <Button
+            android:id="@+id/btn_limit_attendees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/limit_number_of_attendees" />
+
+        <!-- Layout for browsing events -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Button to browse events -->
+            <Button
+                android:id="@+id/btn_browse_events"
+                android:layout_width= "0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/browse_events"
+                android:layout_marginTop="16dp" />
+
+            <!-- Button to remove events -->
+            <Button
+                android:id="@+id/btn_remove_event"
+                android:layout_width= "0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/remove_event"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+        <!-- Layout for browsing profiles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Button to browse profiles -->
+            <Button
+                android:id="@+id/btn_browse_profiles"
+                android:layout_width= "0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/browse_profiles"
+                android:layout_marginTop="16dp" />
+
+            <!-- Button to remove profiles -->
+            <Button
+                android:id="@+id/btn_remove_profile"
+                android:layout_width= "0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/remove_profile"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <!-- Layout for browsing images -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Button to browse images -->
+            <Button
+                android:id="@+id/btn_browse_images"
+                android:layout_width= "0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/browse_images"
+                android:layout_marginTop="16dp" />
+
+            <!-- Button to remove images -->
+            <Button
+                android:id="@+id/btn_remove_image"
+                android:layout_width= "0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/remove_image"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <!-- button for to check into event -->
+        <Button
+            android:id="@+id/btn_check_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_into_events"
+            android:layout_marginTop="16dp"/>
+
+        <!-- button to-view event details -->
+        <Button
+            android:id="@+id/btn_view_event_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_event_details"
+            android:layout_marginTop="16dp"/>
+
+        <!-- button to-view notification -->
+        <Button
+            android:id="@+id/btn_view_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_notifications"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- button for uploading profile picture -->
+            <Button
+                android:id="@+id/btn_upload_profile_picture"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/upload_profile_picture"
+                android:layout_marginTop="16dp"/>
+
+            <!-- button for managing profile picture -->
+            <Button
+                android:id="@+id/btn_manage_profile_picture"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/manage_profile_picture"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- button for updating profile -->
+            <Button
+                android:id="@+id/btn_update_profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/update_profile"
+                android:layout_marginTop="16dp"/>
+
+            <!-- button for managing profile -->
+            <Button
+                android:id="@+id/btn_manage_profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/manage_profile"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+
+
+        <!-- Placeholder for other organizer actions -->
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
