@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000A25"
-    android:padding="16dp">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="270dp"
-        android:layout_height="53dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="cursive"
-        android:text="@string/be_seamless"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="34sp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_below="@id/textView"
-        android:layout_marginTop="8dp"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/organizerimage" />
+    android:background="#000A25">
 
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:layout_below="@id/imageView"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="68dp"
+        android:layout_weight="1"
         android:background="#000A25"
         android:columnCount="2"
         android:padding="16dp"
         android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints">
 
         <!-- Events -->
@@ -69,6 +50,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
         </FrameLayout>
 
         <!-- Map -->
@@ -159,7 +141,34 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
         </FrameLayout>
 
+
     </GridLayout>
-</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/organizerimage" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:fontFamily="cursive"
+        android:text="@string/be_seamless"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

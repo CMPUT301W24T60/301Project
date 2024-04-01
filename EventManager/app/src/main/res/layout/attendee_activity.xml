@@ -1,48 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000A25">
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="270dp"
-        android:layout_height="53dp"
-        android:fontFamily="cursive"
-        android:text="@string/welcome_attendee"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="34sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="match_parent"
-        android:layout_height="140dp"
-        app:srcCompat="@drawable/attendeeimage"
-        android:layout_below="@id/textView2"
-        android:layout_centerHorizontal="true" />
+    <!-- A GridLayout for the main dashboard -->
 
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="match_parent"
         android:layout_height="470dp"
+        android:layout_weight="1"
         android:background="#000A25"
         android:columnCount="2"
         android:padding="16dp"
         android:rowCount="2"
-        android:layout_below="@id/imageView13"
-        android:layout_centerHorizontal="true">
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78">
 
         <!-- Events -->
         <FrameLayout
             android:id="@+id/events_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -55,6 +41,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/myeventsbutton" />
+
         </FrameLayout>
 
         <!-- Map -->
@@ -62,7 +49,6 @@
             android:id="@+id/map_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -75,6 +61,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/browseeventsbutton" />
+
         </FrameLayout>
 
         <!-- Calendar -->
@@ -82,7 +69,6 @@
             android:id="@+id/calendar_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -95,6 +81,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/notificationsbutton" />
+
         </FrameLayout>
 
         <!-- Profile -->
@@ -102,7 +89,6 @@
             android:id="@+id/profile_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -115,6 +101,33 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerInside"
                 android:src="@drawable/myprofilebutton" />
+
         </FrameLayout>
+
+
     </GridLayout>
-</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/attendeeimage" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:fontFamily="cursive"
+        android:text="@string/welcome_attendee"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
