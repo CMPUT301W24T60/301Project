@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">EventManager</string>
     <string name="select_your_user_type">Select your user type:</string>
+    <string name="attend_events">Attend Events</string>
+    <string name="organize_events">Organize Events</string>
+    <string name="administrator">Administrator</string>
+    <string name="welcome_attendee">Welcome Attendee!</string>
+    <string name="geolocation">Geolocation</string>
+    <string name="milestones">Milestones</string>
+    <string name="my_events">My Events</string>
+    <string name="create_events">Create Events</string>
+    <string name="be_seamless">Be Seamless!</string>
+    <string name="welcome_admin">Welcome Admin!</string>
+    <string name="browse_events">Browse Events</string>
+    <string name="browse_profiles">Browse Profiles</string>
+    <string name="browse_images">Browse Images</string>
     <string-array name="user_types">
         <item>Attendee</item>
         <item>Organizer</item>

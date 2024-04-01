@@ -1,6 +1,8 @@
 package com.example.eventmanager;
 import android.graphics.Bitmap;
 
+import com.google.firebase.firestore.GeoPoint;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -16,12 +18,22 @@ public class Event {
             EventOrganizer
             LocationTracker
             * */
+    private String EventId;
     private String EventTitle;
     private String EventDescription;
-    private Date EventDate;
-    private Bitmap EventQRCode;
-    private ArrayList<User> Attendees;
-    private Organizer organizer;
+    private String checkInQRCode;  //base64string representation
+    private String promoQRCode;   //base64string representation
+    private String EventDate;
+    private ArrayList<User> SignedAttendees;
+    private ArrayList<User> CheckedInAttendees;
+    private User organizer;
+    private ArrayList<Integer> attendCount; // number of times a attendee has checked in. parallel with CheckedInAttendees.
+    private ArrayList<GeoPoint> geoLocation; // (latitude, longitude) from which attendee has checked in. parallel with CheckedInAttendees.
+    private int signupLimit;
+    private int signupCount;
+    private int checkInCount;
+    private String PosterUrl;
+
 
     //private Location Event_Location; to be added
 
@@ -41,60 +53,106 @@ public class Event {
         EventDescription = eventDescription;
     }
 
-    public Date getEventDate() {
-        return EventDate;
-    }
-
-    public void setEventDate(Date eventDate) {
-        EventDate = eventDate;
-    }
-
-    public Bitmap getEventQRCode() {
-        return EventQRCode;
-    }
-
-    public void setEventQRCode(Bitmap eventQRCode) {
-        EventQRCode = eventQRCode;
-    }
-
-    public void setAttendees(ArrayList<User> attendees) {
-        Attendees = attendees;
-    }
-
-    public ArrayList<User> getAttendees() {
-        return Attendees;
-    }
-
-    public Organizer getOrganizer() {
+    public User getOrganizer() {
         return organizer;
     }
-    public void setOrganizer(Organizer organizer) {
+    public void setOrganizer(User organizer) {
         this.organizer = organizer;
     }
 
-
-    public void addAttendees(User a) {
-        if (!Attendees.contains(a)) {
-            Attendees.add(a);
-            //send message thar user is added
-        }
-        else{
-            //send you are already added to the user
-        }
-        if(!Attendees.contains(a)){
-            //send message to user that something went wrong
-        }
-    }
-    public void delAttendees(User b){
-        if(Attendees.contains(b)){
-            Attendees.remove(b);
-            // send message that user is not attending this event
-        }
-        else{
-            //send message that you are not attending this event
-        }
-
+    public ArrayList<Integer> getAttendCount() {
+        return attendCount;
     }
 
+    public void setAttendCount(ArrayList<Integer> attendCount) {
+        this.attendCount = attendCount;
+    }
 
+    public ArrayList<User> getSignedAttendees() {
+        return SignedAttendees;
+    }
+
+    public void setSignedAttendees(ArrayList<User> signedAttendees) {
+        SignedAttendees = signedAttendees;
+    }
+
+    public ArrayList<User> getCheckedInAttendees() {
+        return CheckedInAttendees;
+    }
+
+    public void setCheckedInAttendees(ArrayList<User> checkedInAttendees) {
+        CheckedInAttendees = checkedInAttendees;
+    }
+
+    public int getSignupLimit() {
+        return signupLimit;
+    }
+
+    public void setSignupLimit(int signupLimit) {
+        this.signupLimit = signupLimit;
+    }
+
+    public int getSignupCount() {
+        return signupCount;
+    }
+
+    public void setSignupCount(int signupCount) {
+        this.signupCount = signupCount;
+    }
+
+    public int getCheckInCount() {
+        return checkInCount;
+    }
+
+    public void setCheckInCount(int checkInCount) {
+        this.checkInCount = checkInCount;
+    }
+
+    public String getEventDate() {
+        return EventDate;
+    }
+
+    public void setEventDate(String eventDate) {
+        EventDate = eventDate;
+    }
+
+    public String getPosterUrl() {
+        return PosterUrl;
+    }
+
+    public void setPosterUrl(String posterUrl) {
+        PosterUrl = posterUrl;
+    }
+
+    public String getEventId() {
+        return EventId;
+    }
+
+    public void setEventId(String eventId) {
+        EventId = eventId;
+    }
+
+    public ArrayList<GeoPoint> getGeoLocation() {
+        return geoLocation;
+    }
+
+    public void setGeoLocation(ArrayList<GeoPoint> geoLocation) {
+        this.geoLocation = geoLocation;
+    }
+
+    public String getCheckInQRCode() {
+        return checkInQRCode;
+    }
+
+    public void setCheckInQRCode(String checkInQRCode) {
+        this.checkInQRCode = checkInQRCode;
+    }
+
+    public String getPromoQRCode() {
+        return promoQRCode;
+    }
+
+    public void setPromoQRCode(String promoQRCode) {
+        this.promoQRCode = promoQRCode;
+    }
 }
