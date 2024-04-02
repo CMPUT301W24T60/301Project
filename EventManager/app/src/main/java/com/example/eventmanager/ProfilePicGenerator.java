@@ -60,13 +60,19 @@ public class ProfilePicGenerator {
     }
 
     private static Bitmap createBitmap(String binaryHash) {
-        Bitmap bitmap = Bitmap.createBitmap(16, 16, Bitmap.Config.RGB_565);
+        int size = 128; // Larger size
+        Bitmap bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.RGB_565);
         Canvas canvas = new Canvas(bitmap);
+        int cellSize = size / 16;
         for (int i = 0; i < binaryHash.length(); i++) {
-            int x = i % 16;
-            int y = i / 16;
+            int x = (i % 16) * cellSize;
+            int y = (i / 16) * cellSize;
             int color = binaryHash.charAt(i) == '0' ? Color.WHITE : Color.BLACK;
-            bitmap.setPixel(x, y, color);
+            for (int dx = 0; dx < cellSize; dx++) {
+                for (int dy = 0; dy < cellSize; dy++) {
+                    bitmap.setPixel(x + dx, y + dy, color);
+                }
+            }
         }
         return bitmap;
     }
