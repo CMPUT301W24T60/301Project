@@ -24,13 +24,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AttendeeActivity"
+            android:name=".AttendeePackage.AttendeeActivity"
         />
         <activity
-            android:name=".AdminActivity"
+            android:name=".AdminPackage.AdminActivity"
         />
         <activity
-            android:name=".OrganizerActivity"
+            android:name=".OrganizerPackage.OrganizerActivity"
         />
         <activity
             android:name=".UserRegistration"

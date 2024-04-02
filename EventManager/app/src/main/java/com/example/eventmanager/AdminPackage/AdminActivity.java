@@ -1,13 +1,15 @@
-package com.example.eventmanager;
+package com.example.eventmanager.AdminPackage;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class OrganizerActivity extends AppCompatActivity {
+import com.example.eventmanager.R;
+
+public class AdminActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.organizer_activity);
+        setContentView(R.layout.admin_activity);
     }
 }
