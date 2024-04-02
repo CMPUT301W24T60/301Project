@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000A25">
+
+    <TextView
+        android:id="@+id/edit_profile_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Profile infomation"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/empty_profile_pic"
+        android:layout_width="270dp"
+        android:layout_height="218dp"
+        android:layout_below="@+id/edit_profile_text"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="empty profile pic"
+        android:src="@drawable/empty_profile" />
+
+    <TextView
+        android:id="@+id/edit_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-296dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@+id/empty_profile_pic"
+        android:fontFamily="serif"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/empty_profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:autofillHints="name"
+        android:background="@drawable/edit_text_bubble"
+        android:fontFamily="serif"
+        android:hint="Enter Name (ex. Adam Smith)"
+        android:inputType="textPersonName"
+        android:maxLength="30"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/contact_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Contact Information"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/contact_info_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="220dp"
+        android:autofillHints="phone"
+        android:background="@drawable/edit_text_bubble"
+        android:fontFamily="serif"
+        android:hint="Phone Number (123-456-7890)"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:padding="12dp"
+
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/contact_info_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:autofillHints="phone"
+        android:background="@drawable/edit_text_bubble"
+        android:fontFamily="serif"
+        android:hint="Email (example@gmail.com)"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:padding="12dp"
+        android:textColor="@color/black"
+
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/homepage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_info_text"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="115dp"
+        android:fontFamily="serif"
+        android:text="Homepage"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/edit_homepage_website"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/homepage_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:autofillHints="website"
+        android:background="@drawable/edit_text_bubble"
+        android:fontFamily="serif"
+        android:hint="http://example.com"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/geolocation_text"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepage_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="95dp"
+        android:layout_toEndOf="@+id/edit_profile_switchcompat"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Geolocation"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/edit_profile_switchcompat"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/homepage_text"
+        android:layout_alignStart="@id/homepage_text"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="69dp"
+        android:textColor="#FFC107"
+        app:thumbTint="@color/toggle_button_selector"
+        app:trackTint="@color/teal_700" />
+
+    <Button
+        android:id="@+id/edit_profile_confirm_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/geolocation_text"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

@@ -29,6 +29,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /** @noinspection unchecked*/
 public class DatabaseManager {
@@ -602,7 +603,7 @@ public class DatabaseManager {
 
 
     public interface UserProfileImageCallback {
-        void onProfilePicReceived(String posterUrl);
+        void onProfilePicReceived(String profileUrl);
         void onError(Exception e);
     }
 
@@ -615,15 +616,15 @@ public class DatabaseManager {
     }
 
     // Function to get the poster attribute
-    public void getUserProfilePic(String userId, final EventPosterCallback callback) {
+    public void getUserProfilePic(String userId, final UserProfileImageCallback callback) {
         DocumentReference eventRef = db.collection("user").document(userId);
         eventRef.get().addOnSuccessListener(documentSnapshot -> {
             if (documentSnapshot.exists()) {
                 String profilePicUrl = documentSnapshot.getString("profilePicUrl");
-                callback.onPosterReceived(profilePicUrl);
+                callback.onProfilePicReceived(profilePicUrl);
             } else {
                 Log.d("Database", "No such document");
-                callback.onPosterReceived(null); // or invoke onError
+                callback.onProfilePicReceived(null); // or invoke onError
             }
         }).addOnFailureListener(e -> {
             Log.e("Database", "Error fetching document", e);
@@ -708,6 +709,13 @@ public class DatabaseManager {
                 .addOnSuccessListener(aVoid -> Log.d(TAG, "EventId removed from organizeEvents for user " + userDocRef.getId()))
                 .addOnFailureListener(e -> Log.e(TAG, "Error removing EventId from organizeEvents for user " + userDocRef.getId(), e));
     }
+
+
+
+
+
+
+
 
 
 
@@ -803,6 +811,85 @@ public class DatabaseManager {
             }
         }).addOnFailureListener(e -> Log.e(TAG, "Error fetching user document", e));
     }
+
+
+
+
+
+    // checks if userId exist in database and returns boolean
+    public interface UserIdExistsCallback {
+        void onChecked(boolean exists);
+    }
+    public void checkIfUserIdExists(String userId, UserIdExistsCallback callback) {
+        db.collection("user")
+                .whereEqualTo("userId", userId)
+                .get()
+                .addOnCompleteListener(task -> {
+                    boolean exists = false;
+                    if (task.isSuccessful()) {
+                        QuerySnapshot querySnapshot = task.getResult();
+                        if (querySnapshot != null && !querySnapshot.isEmpty()) {
+                            exists = true; // User ID found
+                        }
+                    }
+                    callback.onChecked(exists);
+                })
+                .addOnFailureListener(e -> callback.onChecked(false));
+    }
+
+
+    // add the image reference to database with image type: (poster/profilePic) and the id of the document.
+    public void addImageUriToImageCollection(String StorageImageUri, String ImageType, String documentId) {
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        // Create a new document with a single string field
+        Map<String, Object> data = new HashMap<>();
+        data.put("Uri", StorageImageUri);
+        data.put("imageType", ImageType);
+        data.put("documentId", documentId);
+
+        // Add the document to the specified collection
+        db.collection("image")
+                .add(data)
+                .addOnSuccessListener(documentReference -> {
+                    // Handle success (e.g., document has been added successfully)
+                })
+                .addOnFailureListener(e -> {
+                    // Handle error (e.g., document could not be added)
+                });
+    }
+
+
+
+
+
+
+
+    //used to get the usertype of given user
+    public interface UserTypeCallback {
+        void onUserTypeReceived(String userType);
+        void onError(Exception e);
+    }
+
+    // Function to get the userType attribute
+    public void getUserType(String userId, final UserTypeCallback callback) {
+        DocumentReference userRef = db.collection("user").document(userId);
+        userRef.get().addOnSuccessListener(documentSnapshot -> {
+            if (documentSnapshot.exists()) {
+                String userType = documentSnapshot.getString("userType");
+                callback.onUserTypeReceived(userType);
+            } else {
+                Log.d("Database", "No such document");
+                callback.onUserTypeReceived(null); // or invoke onError
+            }
+        }).addOnFailureListener(e -> {
+            Log.e("Database", "Error fetching document", e);
+            callback.onError(e);
+        });
+    }
+
+
+
 }
 
 
