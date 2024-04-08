@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03dac5</color>
+    <color name="colorPrimary">#375de4</color>
+    <color name="colorPrimaryDark">#375de4</color>
+    <color name="darkerGrey">#5a5a5a</color>
+    <color name="deepBlue">#425186</color>
+    <color name="greenBtnColor">#48ceb9</color>
+    <color name="greenClock">#3cb043</color>
+    <color name="greenJoinBtnColor">#00bb5a</color>
+    <color name="grey">#FF424242</color>
+    <color name="greyDate">#cdcfd1</color>
+    <color name="hintColor">#b7c1e5</color>
+    <color name="lightBlue">#e6f2ff</color>
+    <color name="lightGrey">#d8d8d8</color>
+    <color name="lightText">#c9d37f</color>
+    <color name="searchBarColor">#0023a1</color>
+    <color name="smokyWhite">#fafafa</color>
+    <color name="textBlue">#268eff</color>
+    <color name="timeBackgroundGreen">#e8feed</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">BasicEventManager</string>
+    <string name="dashboard_heading"/>
+    <string name="dashboard_sub_title"/>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="default_web_client_id" translatable="false">387660216304-u8o8vuqb93bros1mfmubinr82pk3f5fr.apps.googleusercontent.com</string>
+    <string name="desc"/>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis augue in elit feugiat congue. Vivamus ac sagittis dui, id porttitor neque. Maecenas et ullamcorper ligula. Quisque ut blandit arcu. Mauris tincidunt posuere neque vitae mollis. Ut vel pretium magna. Donec ut nisl interdum, facilisis enim id, euismod tortor. Praesent ex arcu, sodales eget congue quis, ultricies eget nisi. Maecenas pharetra massa et neque tempor aliquet. Sed viverra magna elementum dui aliquam scelerisque. Vestibulum non dolor vitae eros tempus lobortis. Duis vestibulum nisl neque, et condimentum ex interdum in. Donec accumsan vulputate orci, id pretium mauris placerat id. Maecenas in lectus a sapien egestas accumsan. Etiam neque nunc, vestibulum ac nibh semper, sagittis cursus libero. Aenean odio nulla, varius ac elit nec, interdum pellentesque lectus.</string>
+    <string name="event_image_desc">Event Description</string>
+    <string name="gcm_defaultSenderId" translatable="false">387660216304</string>
+    <string name="google_api_key" translatable="false">AIzaSyDHaMUOk5wWbT2kBxNI6nVtf85T7NX8cL0</string>
+    <string name="google_app_id" translatable="false">1:387660216304:android:f656d114aa975386908f35</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDHaMUOk5wWbT2kBxNI6nVtf85T7NX8cL0</string>
+    <string name="google_storage_bucket" translatable="false">puma-is.appspot.com</string>
+    <string name="location"/>
+    <string name="project_id" translatable="false">puma-is</string>
+    <string name="search_bar_hint">Search for an event ...</string>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Theme.AppPuma" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AppPuma" parent="Base.Theme.AppPuma"/>
+    <style name="expandedBarTextStyle" parent="AppTheme">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+</resources>

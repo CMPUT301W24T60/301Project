@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BasicEventManager</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_heading"></string>
+    <string name="dashboard_sub_title"></string>
+    <string name="search_bar_hint">Search for an event ...</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis augue in elit feugiat congue. Vivamus ac sagittis dui, id porttitor neque. Maecenas et ullamcorper ligula. Quisque ut blandit arcu. Mauris tincidunt posuere neque vitae mollis. Ut vel pretium magna. Donec ut nisl interdum, facilisis enim id, euismod tortor. Praesent ex arcu, sodales eget congue quis, ultricies eget nisi. Maecenas pharetra massa et neque tempor aliquet. Sed viverra magna elementum dui aliquam scelerisque. Vestibulum non dolor vitae eros tempus lobortis. Duis vestibulum nisl neque, et condimentum ex interdum in. Donec accumsan vulputate orci, id pretium mauris placerat id. Maecenas in lectus a sapien egestas accumsan. Etiam neque nunc, vestibulum ac nibh semper, sagittis cursus libero. Aenean odio nulla, varius ac elit nec, interdum pellentesque lectus.</string>
+    <string name="location"></string>
+    <string name="desc"></string>
+    <string name="event_image_desc">Event Description</string>
+</resources>

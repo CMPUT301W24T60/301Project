@@ -1,0 +1,94 @@
+/**
+ * Represents the main activity of the application where users can view events and interact with their profile.
+ */
+public class MainActivity {
+    /**
+     * Initializes the main activity, setting up views and initializing mock events.
+     * @param savedInstanceState The saved instance state bundle.
+     */
+    protected void onCreate(Bundle savedInstanceState) {}
+}
+
+/**
+ * Represents the login activity where users can log in to the application.
+ */
+public class LoginActivity {}
+
+/**
+ * Provides helper methods that are used across multiple classes within the application.
+ */
+public class HelperClass {}
+
+/**
+ * Represents the activity for displaying details of an event.
+ */
+public class EventDetailActivity {
+    /**
+     * Initializes the event detail activity, populating views with event data and setting up button click listeners.
+     * @param savedInstanceState The saved instance state bundle.
+     */
+    protected void onCreate(Bundle savedInstanceState) {}
+}
+
+/**
+ * Represents the database handler class for managing event data.
+ */
+public class EventDatabase {}
+
+/**
+ * Represents the Data Access Object (DAO) for performing database operations on events.
+ */
+public class EventDao {}
+
+/**
+ * Represents the adapter for handling event data in a RecyclerView.
+ */
+public class EventAdapter {}
+
+/**
+ * Represents an event in the application, encapsulating all relevant details.
+ */
+public class Event {
+    /**
+     * Constructs a new Event object with the specified parameters.
+     * @param key The key or identifier for the event.
+     * @param title The title or name of the event.
+     * @param desc The description of the event.
+     * @param day The day of the event.
+     * @param month The month of the event.
+     * @param location The location of the event.
+     * @param time The starting time of the event.
+     * @param posterUrl The URL of the event poster.
+     * @param qrCodeData The data for generating QR code related to the event.
+     * @param isCheckedIn Indicates whether the user has checked in to the event.
+     */
+    public Event(String key, String title, String desc, String day, String month, String location, String time, String posterUrl, String qrCodeData, boolean isCheckedIn) {}
+
+    // Getters and setters for all properties
+}
+
+/**
+ * Represents the activity for editing user profile information.
+ */
+public class EditProfileActivity {}
+
+/**
+ * Represents the activity for managing administrative tasks in the application.
+ */
+public class AdminActivity {}
+
+/**
+ * Represents the splash activity that is displayed when the application is launched.
+ */
+public class SplashActivity {
+    /**
+     * Initializes the splash activity and navigates to the login activity after a delay.
+     * @param savedInstanceState The saved instance state bundle.
+     */
+    protected void onCreate(Bundle savedInstanceState) {}
+}
+
+/**
+ * Represents the profile activity where users can view and edit their profile information.
+ */
+public class ProfileActivity {}

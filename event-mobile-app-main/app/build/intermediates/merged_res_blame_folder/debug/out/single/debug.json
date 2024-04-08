@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_logopuma.png.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/logopuma.png"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xhdpi_ic_check_circle_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xhdpi/ic_check_circle_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_activity_splash.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_count_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/count_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_activity_login.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_black_border.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/black_border.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-anydpi-v26_ic_check_circle_round.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-anydpi-v26/ic_check_circle_round.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_image.jpg.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/image.jpg"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-anydpi-v26_ic_check_circle.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-anydpi-v26/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_search_bar_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/search_bar_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_profilelogo.png.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/profilelogo.png"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xhdpi_ic_check_circle.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xhdpi/ic_check_circle.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_activity_edit_profile.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-mdpi_ic_check_circle_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-mdpi/ic_check_circle_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_activity_profile.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_time_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/time_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_event_card.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/event_card.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_email_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_email_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_round_cancel_btn.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/round_cancel_btn.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_add_note_dialog.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/add_note_dialog.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_search_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_search_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-hdpi_ic_check_circle.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-hdpi/ic_check_circle.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/font_poppins_bold.ttf.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_white_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/white_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxhdpi_ic_check_circle_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxhdpi/ic_check_circle_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_clock_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_clock_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxhdpi_ic_check_circle.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxhdpi/ic_check_circle.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_profilebg.png.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/profilebg.png"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_ic_check_circle_foreground.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/ic_check_circle_foreground.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_search_btn.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/search_btn.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_flower.jpg.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/flower.jpg"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxxhdpi_ic_check_circle_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxxhdpi/ic_check_circle_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_new_event_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_new_event_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/font_poppins_regular.ttf.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_ic_check_mark.png.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/ic_check_mark.png"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/font_poppins_light.ttf.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/font/poppins_light.ttf"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_not_listed_location_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_not_listed_location_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-xxxhdpi_ic_check_circle.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-xxxhdpi/ic_check_circle.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/font_poppins_semibold.ttf.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/font/poppins_semibold.ttf"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_placeholder.png.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/placeholder.png"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_black.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/black.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-hdpi_ic_check_circle_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-hdpi/ic_check_circle_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_ic_check_circle_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/ic_check_circle_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_person_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_calendar_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_calendar_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-mdpi_ic_check_circle.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-mdpi/ic_check_circle.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_custom_app_bar_background.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/custom_app_bar_background.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_cancel_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_cancel_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/layout_activity_event_detail.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/layout/activity_event_detail.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/drawable_baseline_person_pin_24.xml.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/drawable/baseline_person_pin_24.xml"
+    },
+    {
+        "merged": "com.mp012202200038_01.BasicEventManager.app-merged_res-5:/font_poppins_medium.ttf.flat",
+        "source": "com.mp012202200038_01.BasicEventManager.app-main-7:/font/poppins_medium.ttf"
+    }
+]

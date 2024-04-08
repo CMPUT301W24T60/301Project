@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image" />
+
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Event Title" />
+
+        <TextView
+            android:id="@+id/event_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Time" />
+
+        <TextView
+            android:id="@+id/event_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Day" />
+
+        <TextView
+            android:id="@+id/event_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Month" />
+
+        <TextView
+            android:id="@+id/event_location"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingTop="4dp"
+            android:text="Location"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:paddingTop="4dp"
+            android:text="Event description here. Welcome to the 12th annual symposim on artifical intelligence applications in the world of culinary arts! Please remember to check in before entering the venue, and hold your identification badge on your person at all times. Enjoy the greatest congregation of robotics and nutrition."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_check_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Check In"
+            android:visibility="visible" />
+
+
+        <!-- Add any additional views here that you want to show in detail -->
+
+    </LinearLayout>
+</ScrollView>
