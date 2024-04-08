@@ -14,6 +14,7 @@ This project is currently in development. While the core functionalities for use
 
 Acknowledgement:
 I would like to acknowledge that I have worked on this project alone, putting in my best effort to implement as much functionality as possible within the limited time available. Unfortunately, my group members bailed at the last moment without notice, leaving me to complete the project independently.
+Hadasa, E. (2024). Event Mobile App. GitHub. https://github.com/emelynhadasa/event-mobile-app
 
 Features Implemented:
 
