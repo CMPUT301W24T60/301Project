@@ -22,9 +22,9 @@ User authentication
 Event listing
 Event details display
 Basic UI design and layout
+
 Features in Progress:
 
 Administrator features (pseudocoded but not functional yet)
+QR Code Linkage
 
-Note:
-Unfortunate situation, but I did my best with what I had.
