@@ -1,0 +1,23 @@
+Sprint Planning Document
+
+Sprint Number: 1
+Sprint Duration: 1 day (24 hours)
+Sprint Start Date: 2024-04-08
+Sprint End Date: 2024-04-09
+
+Team Members: Bashir Bello
+
+User Stories Planned for Sprint 1:
+
+Feature Implementation: Implement core functionality of the application, including user authentication, event listing, and event details display.
+
+Assigned to: Bashir Bello
+UI Design and Layout: Design and implement the user interface for the application, ensuring a seamless and intuitive user experience.
+
+Assigned to: Bashir Bello
+Data Management: Set up database integration for storing user profiles and event information, ensuring data consistency and reliability.
+
+Assigned to: Bashir Bello
+Testing and Debugging: Perform comprehensive testing of the application to identify and resolve any bugs or issues.
+
+Assigned to: Bashir Bello

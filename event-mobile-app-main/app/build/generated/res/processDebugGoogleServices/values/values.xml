@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">387660216304-u8o8vuqb93bros1mfmubinr82pk3f5fr.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">387660216304</string>
+    <string name="google_api_key" translatable="false">AIzaSyDHaMUOk5wWbT2kBxNI6nVtf85T7NX8cL0</string>
+    <string name="google_app_id" translatable="false">1:387660216304:android:f656d114aa975386908f35</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDHaMUOk5wWbT2kBxNI6nVtf85T7NX8cL0</string>
+    <string name="google_storage_bucket" translatable="false">puma-is.appspot.com</string>
+    <string name="project_id" translatable="false">puma-is</string>
+</resources>

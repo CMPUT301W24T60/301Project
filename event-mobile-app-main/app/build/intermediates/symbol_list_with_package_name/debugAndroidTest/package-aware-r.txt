@@ -1,0 +1,3 @@
+com.mp012202200038_01.BasicEventManager.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
